@@ -1,0 +1,7 @@
+create database teste;
+
+create table frases(
+    id int primary key AUTO_INCREMENT,
+    texto text not null,
+    autor varchar(255) not null default 'Desconhecido'
+);
